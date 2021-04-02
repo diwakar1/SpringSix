@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>I am confirm song one springboot 6</h2>
+<p th:text="${realsong.name}"></p>
+<p th:inline="text">
+    The song name was [[${realsong.name}]].<br/>
+    The artist name is [[${realsong.artist}]].<br/>
+    The album name is [[${realsong.album}]].<br/>
+    The rating was [[${realsong.rating}]].<br/>
+    The Year it came out on was [[${realsong.year}]]
+
+</p>
+</body>
+</html>
